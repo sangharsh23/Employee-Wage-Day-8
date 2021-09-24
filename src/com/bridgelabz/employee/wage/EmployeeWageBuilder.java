@@ -27,10 +27,10 @@ public class EmployeeWageBuilder {
 			}
 
 			int empWage = EMP_WAGE_PER_HOUR * empHrs;
-			System.out.println("EMployee daily Wage : " + empWage);
+			System.out.println("Day-"+ i + " Employee Wage : " + empWage);
 			monthWage += empWage;
 		}
 
-		System.out.println("Employee month Wage: " + monthWage);
+		System.out.println("Employee month Wage : " + monthWage);
 	}
 }
